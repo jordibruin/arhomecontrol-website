@@ -1,20 +1,20 @@
 #page title
-page_title                                : DrawRun                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : AR Home Control                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1442873786                               # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             :     # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://forms.gle/CbETAEHb3bYCS8Fi9    # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                              # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  :                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : /assets/icon.png                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : AR Home Control                                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Plan your runs by drawing them on a map.
+app_description                           : Control your HomeKit devices by pointing your phone at them
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
@@ -37,21 +37,21 @@ features                                  :
     description                           : A simple but useful app that lets you visualize your runs on a map.
     fontawesome_icon_name                 : pencil-alt
 
-  - title                                 : Prepare your run
-    description                           : Before or after a run you can quickly draw your route to calculate the distance.
-    fontawesome_icon_name                 : running
+  # - title                                 : Prepare your run
+  #   description                           : Before or after a run you can quickly draw your route to calculate the distance.
+  #   fontawesome_icon_name                 : running
     
-  - title                                 : Discover new routes
-    description                           : You can also use DrawRun to create new running routes in new areas.
-    fontawesome_icon_name                 : road
+  # - title                                 : Discover new routes
+  #   description                           : You can also use DrawRun to create new running routes in new areas.
+  #   fontawesome_icon_name                 : road
 
-  - title                                 : Miles or Kilometers
-    description                           : Depending on your locale, the app will use miles or kilometers to place markers for easy viewing.
-    fontawesome_icon_name                 : map
+  # - title                                 : Miles or Kilometers
+  #   description                           : Depending on your locale, the app will use miles or kilometers to place markers for easy viewing.
+  #   fontawesome_icon_name                 : map
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  # - title                                 : # New Feature Title
+  #   description                           : # New Feature Description
+  #   fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
 
